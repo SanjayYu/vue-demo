@@ -1,0 +1,10 @@
+var express=require('express');
+var router=express.Router();
+var dataCtrl=require('../controllers/user.controller');
+router.post('/data',dataCtrl.create);
+router.post('/removes',dataCtrl.removes);
+router.put('/data/:id',dataCtrl.update);
+router.delete('/data/:id',dataCtrl.remove);
+router.post('/list',dataCtrl.list);
+router.post('/login', dataCtrl.login);
+module.exports=router;
