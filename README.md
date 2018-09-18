@@ -1,2 +1,2 @@
-# vue-demo
-简单的后台管理练手项目
+vue+node+express实现的后台管理demo
+
