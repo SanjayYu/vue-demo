@@ -10,7 +10,7 @@
         <Button-group>
             <Button @click="changeType(1)" :class="{active:formValidate.type === 1 }">日志分类</Button>
             <Button @click="changeType(2)" :class="{ active: formValidate.type === 2 }">上传分类</Button>
-            <Button @click="changeType(3)" :class="{ active: formValidate.type === 3 }">相册分类</Button>
+            <Button @click="changeType(3)" :class="{ active: formValidate.type === 3 }">相册类别分类</Button>
         </Button-group>
         <Tree :data="baseData" @on-select-change="onSelectChange"></Tree>
         <input type="text" v-model="formValidate.parentId">

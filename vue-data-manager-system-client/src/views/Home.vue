@@ -1,8 +1,8 @@
 <template>
     <div id="app">
-        <h1>管理员登录信息</h1>
+        <h1>管理员信息</h1>
         <Table border :columns="columns6" :data="data5"></Table>
-        <Button type="warning" class="c1" @click="exit">退出登录</Button>
+        <Button type="warning" class="c1" @click="exit">退出</Button>
     </div>
 </template>
 
